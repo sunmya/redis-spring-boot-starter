@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group 'com.wuku.stater'
+version '0.0.1-SNAPSHOT'
+
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url "http://repo.maven.apache.org/maven2" }
+    mavenCentral()
+}
+dependencies {
+    compile group: 'redis.clients', name: 'jedis', version: '3.1.0-m2'
+	compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: '2.2.6.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.6.RELEASE'
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            mavenLocal()
+        }
+    }
+}
