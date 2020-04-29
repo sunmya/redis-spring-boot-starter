@@ -1,10 +1,10 @@
-package com.wuku.stater.auth.service;
+package com.wuku.stater.redis.service;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.wuku.stater.auth.properties.RedisProperties;
+import com.wuku.stater.redis.properties.RedisProperties;
 
 /**
  * 

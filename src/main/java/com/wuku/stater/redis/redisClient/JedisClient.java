@@ -1,4 +1,4 @@
-package com.wuku.stater.auth.redisClient;
+package com.wuku.stater.redis.redisClient;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -7,8 +7,8 @@ import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wuku.stater.auth.properties.RedisProperties;
-import com.wuku.stater.auth.service.RedisService;
+import com.wuku.stater.redis.properties.RedisProperties;
+import com.wuku.stater.redis.service.RedisService;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

@@ -1,2 +1,2 @@
 #-------starter自动装配---------
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.wuku.stater.auth.config.RedisAutoConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.wuku.stater.redis.config.RedisAutoConfig

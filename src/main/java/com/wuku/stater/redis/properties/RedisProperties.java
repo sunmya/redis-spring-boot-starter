@@ -1,4 +1,4 @@
-package com.wuku.stater.auth.properties;
+package com.wuku.stater.redis.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

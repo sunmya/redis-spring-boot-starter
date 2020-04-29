@@ -1,4 +1,4 @@
-package com.wuku.stater.auth.redisClient;
+package com.wuku.stater.redis.redisClient;
 
 import java.util.HashSet;
 import java.util.Map;
@@ -8,8 +8,8 @@ import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wuku.stater.auth.properties.RedisProperties;
-import com.wuku.stater.auth.service.RedisService;
+import com.wuku.stater.redis.properties.RedisProperties;
+import com.wuku.stater.redis.service.RedisService;
 
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
