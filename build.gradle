@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 group 'com.wuku.stater'
-version '0.0.1-SNAPSHOT'
+version '0.0.2-SNAPSHOT'
 
 
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
