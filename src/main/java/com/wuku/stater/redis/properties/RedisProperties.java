@@ -2,7 +2,7 @@ package com.wuku.stater.redis.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "wuku.redis")
+@ConfigurationProperties(prefix = "redis")
 public class RedisProperties {
 
 	private String host;
